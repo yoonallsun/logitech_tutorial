@@ -28,7 +28,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: #000;
+  background: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -202,6 +202,15 @@
   animation: rotate 9s infinite linear;
 }
 
+#menu .underbar {
+  width: 90%;
+  margin: 50px auto;
+}
+
+#menu .underbar img {
+  width: 100%;
+}
+
 @keyframes rotate {
   100% {
     transform: rotate(360deg);
@@ -212,4 +221,166 @@
   100% {
     transform: rotate(-360deg);
   }
+}
+
+/* Section 01 Style */
+#section01 {
+  height: 300vh;
+  overflow: initial;
+  background: #222;
+}
+
+.trigger-this-1 {
+  height: 100%;
+}
+
+.fix-this-1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.main_title {
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-size: 70px;
+  opacity: 0;
+}
+
+.main_title_01 {
+  opacity: 1;
+}
+
+/* Section 02 Style */
+#section02 {
+  height: 1000vh;
+  overflow: initial;
+  position: relative;
+  background: #000;
+}
+
+.trigger-this-2 {
+  height: 100%;
+}
+
+.fix-this-2 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#section02 .trigger-this-we {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+}
+
+#section02 .we {
+  position: absolute;
+  top: 170px;
+  left: 49.2%;
+  transform: translateX(-50%);
+}
+
+#section02 .left {
+  position: absolute;
+  left: 70px;
+  top: 130px;
+  text-align: center;
+}
+
+#section02 .left .star01 {
+  margin-bottom: 10px;
+}
+
+#section02 .left .star02 {
+  margin-bottom: 250px;
+}
+
+#section02 .star03 {
+  position: absolute;
+  right: 70px;
+  top: 130px;
+}
+
+#section02 .title {
+  width: 690px;
+  margin: 0 auto;
+  position: relative;
+  right: 130px;
+  z-index: 999;
+  padding-top: 250px;
+  margin-bottom: -40px;
+}
+
+#section02 .title .create {
+  text-align: right;
+  margin-bottom: 7px;
+}
+
+#section02 .title .title02 {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 13px;
+}
+
+#section02 .title .title02 .subtitle {
+  padding-top: 7px;
+  margin-left: 22px;
+}
+
+#section02 .title .connect {
+  text-align: right;
+  margin-right: 104px;
+}
+
+#section02 .back {
+  width: 1760px;
+  margin: 0 auto;
+}
+
+#section02 .back .bigtxt {
+  display: flex;
+  justify-content: space-between;
+  width: 1760px;
+  margin-bottom: 20px;
+}
+
+#section02 .bigtxt .big01 {
+  display: flex;
+}
+
+#section02 .bigtxt .big01 > div {
+  margin-right: 20px;
+}
+
+#section02 .bigtxt .big02 {
+  display: flex;
+}
+
+#section02 .bigtxt .big02 > div {
+  margin-left: 10px;
+}
+
+#section02 .keyboard {
+  position: absolute;
+  right: 210px;
+  top: 150px;
+  z-index: 99999;
+}
+
+#section02 .underline {
+  width: 90%;
+  margin: auto;
+}
+
+#section02 .underline img {
+  width: 100%;
 }
