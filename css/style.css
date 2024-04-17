@@ -227,7 +227,6 @@
 #section01 {
   height: 300vh;
   overflow: initial;
-  background: #222;
 }
 
 .trigger-this-1 {
@@ -461,4 +460,92 @@
 
 #section03 .visual_container .longtext {
   text-align: center;
+}
+
+/* Section 04 Style */
+#section04 {
+  z-index: 999;
+  position: relative;
+  height: 900vh;
+}
+
+#section04 .trigger-this-4 {
+  height: 100%;
+}
+
+#section04 .fix-this-4 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#section04 .bg {
+  position: relative;
+}
+
+#section04 .bg .overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #000;
+  opacity: 0.3;
+}
+
+#section04 .title_w {
+  position: absolute;
+  left: 0;
+  bottom: 220px;
+  z-index: 999;
+}
+
+#section04 .title_b {
+  position: absolute;
+  left: 0;
+  bottom: 90px;
+  z-index: 999;
+}
+
+#section04 .visual_container {
+  /* background: #ddd; */
+  position: absolute;
+  text-align: center;
+  left: 466px;
+  bottom: -1944px;
+  z-index: 998;
+  width: 1015px;
+  height: 1944px;
+}
+
+#section04 .visual_container .img01 {
+  text-align: right;
+  margin-right: 370px;
+  margin-bottom: 110px;
+}
+
+#section04 .visual_container .img02 {
+  text-align: right;
+  margin-bottom: -118px;
+}
+
+#section04 .visual_container .img03 {
+  text-align: left;
+  margin-bottom: 172px;
+}
+
+#section04 .visual_container .img04 {
+  text-align: right;
+  margin-bottom: 118px;
+  margin-right: 88px;
+}
+
+#section04 .visual_container .img05 {
+  text-align: left;
+  margin-right: 50px;
+}
+
+#section04 .visual_container .img06 {
+  text-align: right;
+  margin-right: 158px;
 }
