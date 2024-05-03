@@ -17,6 +17,10 @@
 }
 
 /* Header Style */
+#header{
+  background: #000;
+}
+
 #header,
 #menu .menu_header{
   transition:all 0.5s;
@@ -28,7 +32,7 @@
   position:fixed;
   top:0;
   left:0;
-  background:transparent;
+  /* background:transparent; */
   display:flex;
   justify-content: space-between;
   align-items: center;
